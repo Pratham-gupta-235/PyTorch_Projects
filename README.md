@@ -18,7 +18,7 @@ This repository contains several PyTorch-based projects aimed at solving differe
 - [Contributing](#contributing)
 - [License](#license)
 
-## Overview 🌟
+<h1 id="overview">Overview 🌟</h1>
 
 This repository provides a collection of PyTorch-based models for solving various classification problems. The goal is to show how to apply deep learning models to diverse data types and classification tasks:
 
@@ -30,7 +30,7 @@ This repository provides a collection of PyTorch-based models for solving variou
 
 Each project comes with pre-defined datasets, training scripts, and detailed instructions for training and evaluation.
 
-## Technologies Used ⚙️
+<h1 id="technologies-used">Technologies Used ⚙️</h2>
 
 - **PyTorch**: The primary framework for building and training deep learning models.
 - **Pandas**: For handling tabular data (used in Tabular Classification).
@@ -41,9 +41,9 @@ Each project comes with pre-defined datasets, training scripts, and detailed ins
 - **Torchvision**: For pre-trained models and image transformations.
 - **Torchaudio**: For audio preprocessing and transformations.
 
-## Projects 🛠️
+<h1 id="projects">Projects 🛠️</h1>
 
-### Tabular Classification 📊
+<h2 id="tabular-classification">Tabular Classification 📊</h2>
 
 In this project, we use **PyTorch** to build models for classifying tabular datasets. These datasets consist of numerical and categorical features that are commonly used in traditional machine learning tasks.
 
@@ -56,7 +56,7 @@ In this project, we use **PyTorch** to build models for classifying tabular data
 2. Train a neural network model.
 3. Evaluate performance using common metrics such as accuracy, precision, recall, and F1 score.
 
-### Text Classification 📝
+<h2 id="text-classification">Text Classification 📝</h2>
 
 This project applies **PyTorch** to natural language processing (NLP) tasks, specifically text classification. You'll preprocess text data, tokenize it, and classify it into categories.
 
@@ -70,7 +70,7 @@ This project applies **PyTorch** to natural language processing (NLP) tasks, spe
 3. Train a sequential model like LSTM or GRU on the tokenized data.
 4. Evaluate model performance.
 
-### Image Classification 🖼️
+<h2 id="image-classification">Image Classification 🖼️</h2>
 
 This project is focused on using **PyTorch** for image classification tasks, where we train models to classify images into multiple categories using Convolutional Neural Networks (CNNs).
 
@@ -84,7 +84,7 @@ This project is focused on using **PyTorch** for image classification tasks, whe
 3. Train a CNN model.
 4. Evaluate the model using accuracy, precision, recall, etc.
 
-### Image Classification with Pre-trained Models 🖼️🔄
+<h2 id="image-classification-with-pre-trained-models">Image Classification with Pre-trained Models 🖼️🔄</h2>
 
 In this project, we take advantage of **pre-trained models** such as ResNet, VGG, and EfficientNet to classify images. These models are already trained on large datasets (e.g., ImageNet) and can be fine-tuned for specific tasks, which can significantly speed up training.
 
