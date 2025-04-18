@@ -74,9 +74,9 @@ This project applies **PyTorch** to natural language processing (NLP) tasks, spe
 
 This project is focused on using **PyTorch** for image classification tasks, where we train models to classify images into multiple categories using Convolutional Neural Networks (CNNs).
 
-- **Dataset**: You can use the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) or your own image dataset.
+- **Dataset**: Dataset That I Used [Animal Faces](https://www.kaggle.com/datasets/andrewmvd/animal-faces).
 - **Model**: Convolutional Neural Networks (CNNs) for image classification.
-- **Objective**: Classify images into categories such as animals, objects, or other objects.
+- **Objective**: Classify images into categories such as animals.
 
 #### Example Workflow:
 1. Load image data using `torchvision`.
